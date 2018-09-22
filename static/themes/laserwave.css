@@ -8,7 +8,7 @@
     font-family: Menlo, Consolas, 'DejaVu Sans Mono', monospace;
     font-weight: 350;
     font-size: 16px;
-    color: #fff;
+    color: #716385;
     background-color: #27212e;
 }
 
@@ -24,7 +24,7 @@
 
 .cm-s-laserwave .CodeMirror-linenumber,
 .cm-s-laserwave .CodeMirror-linenumbers {
-    color: #fff !important;
+    color: #5c5169 !important;
     background-color: transparent;
 }
 
@@ -70,7 +70,6 @@
 /* basic syntax */
 .cm-s-laserwave .cm-quote {
     color: #b4dce7;
-    font-style: italic;
 }
 
 .cm-s-laserwave .cm-negative {
@@ -91,8 +90,17 @@
     font-style: italic;
 }
 
+.cm-s-laserwave .cm-tag {
+    color: #74dfc4;
+}
+
+.cm-s-laserwave .cm-tag.cm-bracket {
+    color: #716385;
+}
+
 .cm-s-laserwave .cm-attribute {
-    color: #F78C6C;
+    color: #EB64B9;
+    font-style: italic;
 }
 
 .cm-s-laserwave .cm-link {
@@ -102,15 +110,14 @@
 
 .cm-s-laserwave .cm-keyword {
     color: #40b4c4;
-    font-style: italic;
 }
 
 .cm-s-laserwave .cm-def {
-    color: #EB64B9;
+    color: #FFF;
 }
 
 .cm-s-laserwave .cm-atom {
-    color: #F78C6C;
+    color: #ffe261;
 }
 
 .cm-s-laserwave .cm-number {
@@ -118,11 +125,12 @@
 }
 
 .cm-s-laserwave .cm-property {
-    color: #40b4c4;
+    color: #b381c5;
+    font-style: italic;
 }
 
 .cm-s-laserwave .cm-qualifier {
-    color: #ffe261;
+    color: #FFF;
 }
 
 .cm-s-laserwave .cm-variable {
@@ -130,7 +138,7 @@
 }
 
 .cm-s-laserwave .cm-variable-2 {
-    color: #FFFFFF;
+    color: #EB64B9;
 }
 
 .cm-s-laserwave .cm-string {
@@ -146,7 +154,7 @@
 }
 
 .cm-s-laserwave .cm-meta {
-    color: #ffe261;
+    color: #FFFFFF;
 }
 
 .cm-s-laserwave .cm-comment {
